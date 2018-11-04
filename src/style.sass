@@ -2,4 +2,25 @@
 body 
   margin: 0
   background-color: #010101
-  font-family: 'Nunito', sans-serif 
+  font-family: 'Nunito', sans-serif
+  font-size: 62.5%
+  img 
+    max-width: 100%
+*, *:before, *:after
+   -webkit-box-sizing: border-box
+   -moz-box-sizing: border-box
+   box-sizing: border-box
+  
+// responsividade
+.desktop
+  display: none
+.mobile
+  display: none
+
+@media only screen and (min-width: 400px)
+  .desktop
+    display: block
+
+@media only screen and (max-width: 400px)
+  .mobile
+    display: block
