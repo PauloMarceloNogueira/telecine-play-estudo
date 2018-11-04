@@ -42,6 +42,15 @@ const Menu = () => (
           <li>Documentário</li>
           <li>Drama</li>
           <li>Ficção-científica</li>
+          <li>Ação</li>
+          <li>Animação</li>
+          <li>Aventura</li>
+          <li>Biografia</li>
+          <li>Comédia</li>
+          <li>Comédia Romantica</li>
+          <li>Documentário</li>
+          <li>Drama</li>
+          <li>Ficção-científica</li>
         </div>
       </ul>
     </li>
