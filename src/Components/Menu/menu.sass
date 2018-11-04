@@ -1,0 +1,70 @@
+.menu-container 
+  display: flex
+  flex-direction: row
+
+  .menu-item
+    list-style: none
+    text-transform: uppercase
+    padding-left: 25px
+    font-weight: 100
+    cursor: pointer
+    white-space: nowrap
+    svg
+      padding-left: 10px
+      transition: .2s ease
+    &:nth-child(3) 
+      &:hover
+        svg
+          color: red
+        ul.menu-item-playlist
+          width: 560px
+          position: absolute
+          margin-left: -270px
+          padding-top: 30px
+          background-color: transparent
+          display: flex
+          .menu-item-playlist-content
+            background-color: #3B394A
+            display: flex
+            flex-wrap: wrap
+            border-radius: 6px
+          li
+            flex: 1 0 30%
+            margin: 5px
+            list-style: none
+            height: 90px
+            font-size: 12px
+    &:nth-child(4)
+      &:hover
+        svg
+          color: red 
+        ul.menu-item-generos
+          width: 560px
+          position: absolute
+          margin-left: -50px
+          padding-top: 30px
+          background-color: transparent
+          display: flex
+          .menu-item-playlist-content
+            background-color: #3B394A
+            display: block
+            flex-wrap: wrap
+            list-style: none
+            padding: 19px
+            border-radius: 6px
+            width: 230px
+          li
+            font-size: 12px
+            padding-top: 13px
+            &:hover
+              text-decoration: underline
+    &:hover
+      color: #ebebeb
+    ul 
+      width: 100%
+      background-color: #3B394A
+      display: none
+      flex-wrap: wrap
+      
+    
+      
