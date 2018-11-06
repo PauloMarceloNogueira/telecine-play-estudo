@@ -75,11 +75,11 @@
   position: relative
   display: block
   background: #FFF
-  width: 30px
+  width: 20px
   height: 2px
-  top: 29px
-  left: 15px
-  transition: .5s ease-in-out
+  top: 25px
+  left: 5%
+  transition: .3s ease-in-out
 
 .hamburguer:before,
 .hamburguer:after
@@ -89,19 +89,20 @@
   width: 100%
   height: 100%
   position: absolute
-  transition: .5s ease-in-out
+  transition: .3s ease-in-out
 
 .hamburguer:before
-  top: -10px
+  top: -7px
 
 .hamburguer:after
-  bottom: -10px
+  bottom: -7px
 
 input
   display: none
 
 input:checked ~ label .hamburguer
   transform: rotate(45deg)
+  left: 90%
 
 input:checked ~ label .hamburguer:before
   transform: rotate(90deg)
@@ -110,4 +111,22 @@ input:checked ~ label .hamburguer:before
 input:checked ~ label .hamburguer:after
   transform: rotate(90deg)
   bottom: 0
-        
+
+input:checked ~ .hamburguer-content
+  width: 320px
+  transition: 0.2s
+
+.hamburguer-content 
+  width: 0px
+  height: 500px
+  margin-top: -2px
+  background-color: #3E3C4E
+  transition: 0.3s
+
+@-webkit-keyframes slide
+    100% 
+      left: 0
+
+@keyframes slide
+    100% 
+      left: 0

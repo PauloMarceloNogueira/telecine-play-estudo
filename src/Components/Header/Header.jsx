@@ -16,6 +16,7 @@ const Header = () => (
       </div>
       <div className="mobile">
         <Hamburguer />
+        <div className="logo"></div>
       </div>
       <Search />
     </div>

@@ -8,7 +8,7 @@ const Menu = () => (
       <li className="menu-item">lançamentos</li>
       <li className="menu-item">
         playlists
-        <svg class="svg-icon" width="14" height="9" viewBox="0 0 14 9">
+        <svg class="svg-icon" width="25" height="9" viewBox="0 0 14 9">
           <path fill="currentColor" stroke="currentStroke" d="M1 2 7 8 13 2 12 1 7 6 2 1"></path>
         </svg>
         <ul className="menu-item-playlist">
@@ -29,7 +29,7 @@ const Menu = () => (
         </ul>
       </li>
       <li className="menu-item">gêneros
-        <svg class="svg-icon" width="14" height="9" viewBox="0 0 14 9">
+        <svg class="svg-icon" width="25" height="9" viewBox="0 0 14 9">
           <path fill="currentColor" stroke="currentStroke" d="M1 2 7 8 13 2 12 1 7 6 2 1"></path>
         </svg>
         <ul className="menu-item-generos">
